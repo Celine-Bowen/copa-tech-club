@@ -20,7 +20,7 @@ include ('includes/nav.php');
 			<h1>Login</h1>        
 <form action="server.php"  method="post" >
 		<div>
-
+<label><a href="registration.php"></a></label><br>
 					<label> Registration Number </label> <br>
 		         	<input type="text numbers"placeholder="Enter reg no" name="reg">
 		</div>
