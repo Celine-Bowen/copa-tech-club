@@ -27,6 +27,7 @@ include ('includes/nav.php');
 	<div class="container">
     <h1>Subscribe to our updates</h1>
     <form>
+    	<label><a href="registration.php"></a></label><br>
     	<input type="email" placeholder="Enter email..." >
     	<button type="submit"class="button_1">Subscribe</button>
     </form>		
