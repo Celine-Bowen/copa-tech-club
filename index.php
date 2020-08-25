@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> fb9c86834c8eb88e22be37653b17a510d50bd856
 <!DOCTYPE html>
 <html>
 <head>
@@ -50,6 +53,8 @@ include ('includes/nav.php');
 	<div class="container">
     <h1>Subscribe to our updates</h1>
     <form>
+    	<label><a href="registration.php"></a></label><br>
+	
     	<input type="email" placeholder="Enter email..." >
     	<button type="submit"class="button_1">Subscribe</button>
     </form>		
@@ -70,4 +75,6 @@ include ('includes/nav.php');
 	</footer>
 	</body>
 </html>
+
+
 

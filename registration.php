@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -18,33 +15,33 @@ include ('includes/nav.php');
 			
 		</div>
 		<form action="registration.php" method="post">
+			<label><a href="registration.php"></a></label><br>
 		<div>
-			<label for="User Name">Name</label>
-			<input type="text" name="name" required>
+			<label for="User Name">Name</label><br>
+			<input type="text" name="name" required><br>
 		</div>	
 
 <div>
-			<label for="Registration Number">Registration Number </label>
+			<label for="Registration Number">Registration Number </label><br>
 			<input type="text" name="reg" required>
+			<br>
 		</div>	
 
 <div>
-			<label for="CUK Student Email">Email address</label>
-			<input type="text" name="email" required>
+			<label for="CUK Student Email">Email address</label><br>
+			<input type="text" name="email" required><br>
 		</div>	
-	<div>
-			<label for="Course">Course</label>
-			<input type="text" name="course" required>
-		</div>
+	
 <div>
-			<label for="Password">Password</label>
-			<input type="Password" name="Password_1" required>
+			<label for="Password">Password</label><br>
+			<input type="Password" name="Password_1" required><br>
 		</div>	
 <div>
-			<label for="Password">Confirm Password</label>
-			<input type="Password" name="Password_2" required>
+			<label for="Password">Confirm Password</label><br>
+			<input type="Password" name="Password_2" required><br>
 		</div>	
-		<button type="submit" name="register_user"></button>
+		<br> <button class="button_1"type="Register_user" name="Register">Register</button>
+		
 
 		<p>
       Already a member? <a href="login.html">Login</a>
